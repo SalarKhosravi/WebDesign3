@@ -1,4 +1,4 @@
-alert('Hello form EXTERNAL script')
+// alert('Hello form EXTERNAL script')
 console.log('Hello from console log')
 console.log(123) //numbers are blue
 console.log(true) //numbers are blue
@@ -18,7 +18,12 @@ console.log({"a": 1, "b": 2})   // object
 console.table({"a": 1, "b": 2})   
 console.error('from error')   
 console.warn('from warn')   
+
 // console.clear()   
+
+userName = 'Salikho'
+console.log(`your userName is { userName }`)
+console.log(`your userName is ${ userName }`)
 
 
 
