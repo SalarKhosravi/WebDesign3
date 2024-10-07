@@ -209,3 +209,29 @@ console.log(`Hello ${ userFirstName ?? 'Dear'}`);
 // Optional ?.
 // ------------------------------
 console.log(person?.address?.city);
+
+
+
+
+
+
+
+
+
+// switch
+x = 'red'
+switch(x){
+    case 'red':
+        console.log('red');
+        break;
+    case 'blue':
+        console.log('blue');
+        break;
+    case 'green':
+        console.log('green');
+        break;
+    default:
+        console.log('uknown');
+        break;       
+}
+
