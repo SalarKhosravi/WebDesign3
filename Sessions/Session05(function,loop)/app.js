@@ -89,7 +89,7 @@ do{
 
     
     
-// Loop in Array
+// Loop in Array or Object
 // -----------------------------------------------
 arr = [1, 2, 3, 'ali', 'hassan']
 for (let index = 0; index < arr.length; index++) {
